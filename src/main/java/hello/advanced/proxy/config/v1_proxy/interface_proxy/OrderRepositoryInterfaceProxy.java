@@ -1,15 +1,14 @@
 package hello.advanced.proxy.config.v1_proxy.interface_proxy;
 
-import hello.advanced.proxy.app.v1.OrderRepositoryV1;
+import hello.advanced.proxy.app.v1.OrderRepositoryV2;
 import hello.advanced.trace.TraceStatus;
 import hello.advanced.trace.logTrace.LogTrace;
 import lombok.RequiredArgsConstructor;
-import org.springframework.core.annotation.Order;
 
 @RequiredArgsConstructor
-public class OrderRepositoryInterfaceProxy implements OrderRepositoryV1 {
+public class OrderRepositoryInterfaceProxy implements OrderRepositoryV2 {
 
-    private final OrderRepositoryV1 target;
+    private final OrderRepositoryV2 target;
     private final LogTrace logTrace;
 
     @Override
