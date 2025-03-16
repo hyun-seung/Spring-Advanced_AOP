@@ -2,7 +2,7 @@ package hello.advanced.proxy.app.v1;
 
 import static java.lang.Thread.sleep;
 
-public class OrderRepositoryV1Impl implements OrderRepositoryV2 {
+public class OrderRepositoryV1Impl implements OrderRepositoryV1 {
 
     @Override
     public void save(String itemId) {

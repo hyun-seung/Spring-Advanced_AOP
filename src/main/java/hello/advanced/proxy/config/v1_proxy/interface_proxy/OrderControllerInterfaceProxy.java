@@ -1,14 +1,14 @@
 package hello.advanced.proxy.config.v1_proxy.interface_proxy;
 
-import hello.advanced.proxy.app.v1.OrderControllerV2;
+import hello.advanced.proxy.app.v1.OrderControllerV1;
 import hello.advanced.trace.TraceStatus;
 import hello.advanced.trace.logTrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class OrderControllerInterfaceProxy implements OrderControllerV2 {
+public class OrderControllerInterfaceProxy implements OrderControllerV1 {
 
-    private final OrderControllerV2 target;
+    private final OrderControllerV1 target;
     private final LogTrace logTrace;
 
     @Override
