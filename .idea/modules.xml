@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adavanced.main.iml" filepath="$PROJECT_DIR$/.idea/modules/adavanced.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adavanced.test.iml" filepath="$PROJECT_DIR$/.idea/modules/adavanced.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/aop.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springAop.iml" filepath="$PROJECT_DIR$/.idea/springAop.iml" />
     </modules>
   </component>
